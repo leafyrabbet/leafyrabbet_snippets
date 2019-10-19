@@ -40,7 +40,7 @@ git config user.email "leafyrabbet@gmail.com"
 
 
 # Config OniVim2 as your Commit Message Editor (Globally)
-git config --global core.editor "onivim -f $1 > /dev/null; reset;"
+git config --global core.editor "onivim -f $1 > /dev/null"
 
 
 # Make sure you're sync-ed Locally and with Remotes
