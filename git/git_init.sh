@@ -19,9 +19,8 @@ cd ./<repo_directory_name>
 git init
 git config user.name "Tommy Vegetables"
 git config user.email "leafyrabbet@gmail.com"
-git checkout -b trunk
-git branch -D master
-git touch .gitignore
+git checkout -b trunk  # Change main branch name
+touch .gitignore
 git add ./.gitignore
 git commit
 # Commit Message (Title and Body):
@@ -65,5 +64,5 @@ git remote add github git@github.com:<github_username>/<new_remote_repo_name>.gi
 #  whatever valid text you want; normally it is `origin`
 git stash
 git checkout trunk
-git push github trunk
+git push -u github trunk
 
